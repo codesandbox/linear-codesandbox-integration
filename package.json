@@ -1,0 +1,32 @@
+{
+  "name": "linear-codesandbox-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox/linear-codesandbox-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesandbox/linear-codesandbox-integration/issues"
+  },
+  "homepage": "https://github.com/codesandbox/linear-codesandbox-integration#readme",
+  "dependencies": {
+    "@linear/sdk": "^1.22.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
