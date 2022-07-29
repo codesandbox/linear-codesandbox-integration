@@ -21,6 +21,7 @@ app.post("/linear-webhook", async (req, res) => {
     const payload: WebhookData = data;
 
     const branchName = `${payload.team.key}-${payload.number}`;
+    console.log("Linear Issue: " + branchName);
     await Promise.all(
       repos.map(async (repo) => {
         await linearClient.attachmentCreate({
@@ -29,17 +30,16 @@ app.post("/linear-webhook", async (req, res) => {
           url: `https://codesandbox.io/p/github/${repo}/${branchName}?create=true`,
           subtitle: "Open in CodeSandbox",
           iconUrl: "https://codesandbox.io/favicon.ico?",
+          groupBySource: true,
         });
       })
     );
   }
-
-  // Do something neat with the data received!
 
   // Finally, respond with a HTTP 200 to signal all good
   res.sendStatus(200);
 });
 
 app.listen(port, () =>
-  console.log(`My webhook consumer listening on port ${port}!`)
+  console.log(`Linear webhook listener is listening o ${port}!`)
 );
