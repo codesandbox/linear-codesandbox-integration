@@ -1,4 +1,4 @@
 export const repos = [
-  "codesandbox/codesandbox-applications",
-  "codesandbox/pitcher",
+  // Add your repos here!
+  // "facebook/react"
 ];
