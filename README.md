@@ -1,6 +1,6 @@
 # Linear 🤝 CodeSandbox Integration
 
-This webhook integration will allow you to open a development environment on CodeSandbox
+This webhook integration allows you to open a development environment on CodeSandbox
 directly from a Linear issue.
 
 ![linear-codesandbox](./images/linear-codesandbox.png)
