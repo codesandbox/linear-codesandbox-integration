@@ -41,5 +41,5 @@ app.post("/linear-webhook", async (req, res) => {
 });
 
 app.listen(port, () =>
-  console.log(`Linear webhook listener is listening o ${port}!`)
+  console.log(`Linear webhook listener is listening on ${port}!`)
 );
