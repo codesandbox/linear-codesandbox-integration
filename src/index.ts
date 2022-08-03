@@ -25,7 +25,9 @@ app.get("/", async (req, res) => {
   const integrationStatus = linearClient
     ? "Linear client is correctly configured!"
     : "Linear client not yet configured, configure it by setting <code>LINEAR_KEY</code> in environment variables (check <code>README.md</code>)";
-  res.send("Welcome to CodeSandbox Linear integration!<p>" + integrationStatus);
+  res.send(
+    "Welcome to the CodeSandbox Linear integration!<p>" + integrationStatus
+  );
 });
 
 // Receive HTTP POST requests
