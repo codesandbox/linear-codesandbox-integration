@@ -1,7 +1,7 @@
 # Linear 🤝 CodeSandbox Integration
 
-This webhook integration will allow you to open a CodeSandbox directly from a
-Linear issue.
+This webhook integration will allow you to open a development environment on CodeSandbox
+directly from a Linear issue.
 
 ![linear-codesandbox](./images/linear-codesandbox.png)
 
@@ -33,6 +33,7 @@ You can fork this template to set this up for yourself
    2. Copy the URL
       [http://localhost:3000/linear-webhook](http://localhost:3000/linear-webhook)
       <- this URL corresponds to this branch if you open this README in
-      CodeSandbox.
+      CodeSandbox. Otherwise you can check the preview URL in the preview devtool
+      on the right.
    3. In Linear, go to Workspace Settings, and add it to the Webhooks under API
 7. Now you will have CodeSandbox links in Linear for new issues!
