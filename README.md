@@ -28,6 +28,7 @@ You can fork this template to set this up for yourself
    1. Open the command palette (CMD/Ctrl + Shift + P) and search for "Add
       environment variables".
    2. Add the env var under the name `LINEAR_KEY`
+   3. Restart the instance, and you should have your webhook server running!
 6. Add the Webhook to Linear
    1. Go to the main branch of this repo
    2. Copy the URL
