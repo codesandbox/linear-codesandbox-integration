@@ -20,7 +20,7 @@
   "homepage": "https://github.com/codesandbox/linear-codesandbox-integration#readme",
   "dependencies": {
     "@linear/sdk": "^1.22.0",
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.20.3",
     "express": "^4.19.2"
   },
   "devDependencies": {
